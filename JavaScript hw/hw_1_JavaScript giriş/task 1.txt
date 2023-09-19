@@ -1,0 +1,5 @@
+1.	Üç dəyişən yaradın: kitabAdı (string növündə), səhifəSayı (nömrə növündə) və elektron (boolean növündə).
+2.	kitabAdı dəyişəninə istənilən bir kitabın adını mənimsədin.
+3.	səhifəSayı dəyişəninə həmin kitabın səhifə sayını mənimsədin.
+4.	Əgər kitab elektron formatında (e-kitab) isə elektron dəyişəninə true dəyərini, əks təqdirdə false dəyərini mənimsədin.
+5.	Konsolda (console.log()) aşağıdakı mətni çap edin: "Mənim oxuduğum kitabın adı [kitabAdı]-dir, onun [səhifəSayı] səhifəsi var. Bu elektron kitabdır: [elektron].", burada [kitabAdı], [səhifəSayı] və [elektron] dəyişənlərinin dəyərləri olmalıdır.

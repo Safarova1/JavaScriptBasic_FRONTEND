@@ -1,0 +1,4 @@
+1.	İki dəyişən yaradın: a və b və onlara istənilən iki nömrəni mənimsədin.
+2.	Üçüncü bir dəyişən yaradın: nəticə.
+3.	nəticə dəyişəninə a və b dəyişənlərinin cəmini mənimsədin.
+4.	Konsolda (console.log()) aşağıdakı mətni çap edin: "[a] + [b] = [nəticə]", burada [a], [b] və [nəticə] dəyişənlərinin dəyərləri olmalıdır.
