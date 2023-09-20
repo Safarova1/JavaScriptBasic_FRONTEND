@@ -89,6 +89,92 @@ console.log(!false) // true
 
 
 
+//-----------------------------------------------
+let active = confirm()
+
+if (!active) {
+    alert('cancel')
+}
+
+else {
+    alert('ok')
+}
+
+
+
+
+
+//--------------------------------------------------------------
+if ((1 < 10 && 5 < 10) || 5 === 5){  //ampersant 
+    alert('ok')
+}
+
+if (1 < 10){
+    alert('ooook')
+}
+
+
+
+//-----------------------------------------------------------------
+let input = prompt()
+number = Number(input)
+
+switch(input){   // input ve case-deki soz yoxlanilir
+    case 'Baki' : 
+        alert('Baki')  //inputdaki soz Baki-dirsa Baki cixir ve
+        break  // emeliyyat dayanir  --dayanmasa soraki kodlarin her birini gosterir
+
+    case 'Moskva' :
+        alert('Moskva')
+        break
+    default:
+        alert('hecne tapilmadi')
+}
+
+switch(number){
+    case 1:
+        alert('hELLO')
+        
+    case 2:
+        alert('world')
+}
+
+
+
+
+//-------------------------------------------------------------------
+
+let input = prompt()
+
+//pernape aperator
+let isActive = input ==='ok' ? true : false
+//eger input beraberdise ok-a o zaman true qaytarir --eks teqdirde false
+
+console.log(isActive)
+
+
+
+//-------------------------------------------------------------------
+
+let cins = prompt('cinsivizi daxil edin- ')
+let cavab = cins ==='kisi' ? true :false
+
+if (cavab){
+    alert('MAN')
+}
+console.log(cavab)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
