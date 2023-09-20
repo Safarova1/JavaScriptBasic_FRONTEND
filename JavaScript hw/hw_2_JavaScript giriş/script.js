@@ -1,5 +1,5 @@
-let a = 45
-let b = 3689
+let a = Number(45)
+let b = Number(3689)
 
 let result
 
