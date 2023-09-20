@@ -2,7 +2,7 @@ let bookTitle
 let pageCount 
 let e_book 
 
-bookTitle = String ("Qürur və Qərəz")
+bookTitle = String ("Qürur və Qərəz") 
 pageCount = Number(166)
 e_book = Boolean(1)
 console.log(`Mənim oxuduğum kitabın adı ${bookTitle}-dir, onun ${pageCount} səhifəsi var. Bu elektron kitabdır: ${e_book}`)
