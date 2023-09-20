@@ -166,8 +166,32 @@ console.log(cavab)
 
 
 
+//------------------------------------------------------------------------
+let cins = prompt('cinsivizi daxil edin- ')
+let yas = prompt('yasinizi daxil edin- ')
+yas = Number(yas)
 
 
+let cavab = cins === 'kisi' && yas >= 18 ? 'kisi qeydiyyata alindi': 
+            cins === 'qadin' && yas >= 17 ? 'qadin qeydiyyata alindi' : 
+            cins === 'kisi' && yas < 18 ? 'kisi qeydiyyata alinmadi!': 
+            cins === 'qadin' && yas < 17 ? 'qadin qeydiyyata alinmadi!' : 
+            'wrong'
+            
+            
+
+console.log(cavab)
+
+
+if(cavab === 'kisi qeydiyyata alindi' || cavab === 'qadin qeydiyyata alindi'){
+    alert('daxil oldunuz')
+}
+else if (cavab === 'kisi qeydiyyata alinmadi!' || cavab ==='qadin qeydiyyata alinmadi!'){
+    alert('daxil olunmadi')
+}
+else{
+    alert('sehvlik var')
+}
 
 
 
