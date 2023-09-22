@@ -10,11 +10,12 @@ if (input > 10 ){
     switch(birinciReqem){
         case  '1' :
             alert('on')
-        switch(ikinciReqem){
-            case '2':
-                alert('iki')
-        }
-    }    
+    } 
+    switch(ikinciReqem){
+        case '2':
+            alert('iki')
+    }
+       
 }
 
 
