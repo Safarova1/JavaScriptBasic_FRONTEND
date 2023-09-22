@@ -14,24 +14,95 @@ if(!isNaN(a) && !isNaN(b)){
 //----------------------------------------------------------
 praktika 1
 
+//----------------------------------------------------------
+
+if (1 < 10 || 1 > 10 || 5 > 15) {
+    console.log('ok')
+}
+
+//--------------------------------------------------
+
+//if-le
+
+let input = prompt()
+
+if (input === 'birinci gun' ||
+    input === 'ikinci gun' ||
+    input === 'ucuncu gun' ||
+    input === 'dorduncu gun'){
+        console.log('ok')
+    }
+
+
+
+//eynisi switch-le
+
+let input = prompt()
+
+switch (input) {
+    case 'birinci gun':
+    case 'ikinci gun':
+    case 'ucuncu gun':
+    case 'dorduncu gun':
+
+        console.log('ok')
+        break
+}
+
+
+
+
+
+//--------------------------------------------------------------------
+
+
+//eger  1-5 gun is gunler 6-7 istirahet gunleri  eks halda -bu gunler ne istirahet ne is gnudur
+//switch-le
+
+let gun = prompt()
+
+switch (gun) {
+    case '1':
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+        console.log('is gunleri')
+        break
+
+    case '6':
+    case '7':
+        console.log('istirahet gunleri')
+        break
+
+    default:
+        console.log('is gunu ve yaxud istirahet gunu deyil')
+
+}
+
+//--------------------------------------------------------------------
+// if-le
+
+
+let gun = prompt()
+
+if (gun === '1' || gun === '2' || gun === '3' || gun === '4' || gun === '5') {
+    console.log('is gunudur')
+} else if (gun == '6' || gun == '7') {
+    console.log('istirahet gunudur')
+}else{
+    console.log('ne istirahet gunudur ne de is')
+}
 
 
 
 
 
 
+//server live -- canli sekilde brauzerde yenilemeye imkan verir  extensions-den kocur
 
-
-
-
-
-
-
-
-
-
-
-
+//-----------------------------------------------------------------------
+dovrler
 
 
 
