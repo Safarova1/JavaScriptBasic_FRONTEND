@@ -1,1 +1,1 @@
-let a = prompt ("ede daxil edin- ")
+let a = prompt ("eded daxil edin- ")
