@@ -1,0 +1,14 @@
+Tapşırıq 2: İstifadəçidən Qiymət Almaq və Onu Qiymətləndirmək
+Məqsəd: if/else if/else şərt strukturu ilə bir çox şərtləri yoxlamaq.
+Talimatlar:
+1.	qiymət adlı dəyişən yaradın.
+2.	İstənilən bir qiyməti 0 ilə 100 arasında qiymət dəyişəninə mənimsədin.
+3.	Aşağıdakı şərtlərə uyğun olaraq qiymət-i qiymətləndirin:
+
+	•	Əgər qiymət 90 və üstündədirsə, konsolda "A" çap edin.
+	•	Əgər qiymət 80 və 89 arasındadırsa (daxil olmaqla), konsolda "B" çap edin.
+	•	Əgər qiymət 70 və 79 arasındadırsa (daxil olmaqla), konsolda "C" çap edin.
+	•	Əgər qiymət 60 və 69 arasındadırsa (daxil olmaqla), konsolda "D" çap edin.
+	•	Əgər qiymət 59 və aşağıdırsa, konsolda "F" çap edin.
+
+
