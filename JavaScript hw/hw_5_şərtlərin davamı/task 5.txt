@@ -1,0 +1,5 @@
+Bir dəyişən yaratmaq lazımdır ki, dəyəri boş sətr olsun.
+ Sonsuz şəkildə prompt çıxmalıdır və siz daxil etdiyiniz söz boş 
+dəyişənə arada boşluq qalmaqla hər dəfə əlavə olunmalıdır. 
+Prompta ‘show’ sözü daxil etsəniz dəyişəni göstərməlisiniz. 
+Prompta ‘end’ sözü daxil etsəniz dövr dəyanmalıdır
