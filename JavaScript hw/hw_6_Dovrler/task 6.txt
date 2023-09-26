@@ -1,0 +1,5 @@
+1 tapşırıq. İstifadəçidən mətn daxil etməsini tələb edən və mətndə rəqəmlərin olub-olmaması barədə konsola mesaj çıxaran proqram tərtib edin.
+
+2 tapşırıq. Mətndə "." hərfinin ilk dəfə hansı indeksdə yerləşdiyini tapan proqram tərtib edin.
+
+3 tapşırıq. Sayğaclı dövrün köməyi ilə 10-a qədər bütün ədədlərin hasilin tapan proqram tərtib edin. Alınan dəyəri konsola çıxarın.
