@@ -35,22 +35,105 @@
 // ----------------------------------------------------------------------------------------
 // tek ve cut ededlerini cemi
 
-let sumCut = 0
-let sumTek = 0
+// let sumCut = 0
+// let sumTek = 0
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 === 0) {
-        sumCut += i
-        console.log(i)
-    }
-    else if (i % 1 === 0) {
-        sumTek += i
-        console.log(i)
-    }
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         sumCut += i
+//         console.log(i)
+//     }
+//     else if (i % 1 === 0) {
+//         sumTek += i
+//         console.log(i)
+//     }
 
+// }
+// console.log(sumCut)
+// console.log(sumTek)
+
+
+
+
+
+
+// ----------------------------------------------------------------------------------------
+// fibanacci
+// 0 1 1 2 3 5 8 13 21 34 55 89...
+// f(n-1)+f(n-2)
+
+
+
+// ----------------------------------------------------------------------------------------
+// function --emeliyatti her defe edeceyik-asanlasdirmaq ucundu
+// js 2 cur funksiya yarada bilerik
+// ECMAScript — это встраиваемый расширяемый не имеющий средств ввода-вывода язык программирования, используемый в качестве основы для построения других скриптовых языков
+
+
+// kohne ECMAScript6-dan qabaq
+// function printText(){
+//     console.log("hello")
+// }
+
+// printText()
+
+// teze ECMAScript6 ve sonra
+// const  printText2 =() =>{
+//     console.log("world")
+// }
+
+// printText2()
+
+
+
+
+
+// ----------------------------------------------------------------------------------------
+// her cagirilanda artan deyisen
+
+// let i = 0
+// const numPlus = () => {
+//     i++
+//     console.log(i)
+// }
+
+
+// numPlus()
+// numPlus()
+// numPlus()
+
+
+
+// ----------------------------------------------------------------------------------------
+
+let i = 0
+const numPlus = () => {
+    i++
+    return i
 }
-console.log(sumCut)
-console.log(sumTek)
+
+
+console.log(numPlus)
+console.log(numPlus)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
