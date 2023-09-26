@@ -11,5 +11,5 @@ proqram tərtib edin.
 
 
 3 tapşırıq. 
-Sayğaclı dövrün köməyi ilə 10-a qədər bütün ədədlərin hasilin tapan 
+Sayğaclı dövrün(for) köməyi ilə 10-a qədər bütün ədədlərin hasilin tapan 
 proqram tərtib edin. Alınan dəyəri konsola çıxarın.
