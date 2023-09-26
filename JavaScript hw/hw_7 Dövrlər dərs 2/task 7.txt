@@ -1,4 +1,7 @@
-Üç ədəd qəbul edən və konsolda ən böyüyünü göstərən bir funksiya tərtib edin. Fibonacci ədədləri adını Leonardo Fibonacci adlı İtaliyalı riyaziyyatçıdan alır. Bu ardıcıllıq, hər ədədin bir əvvəlki iki ədədin cəmindən alındığı bir ardıcıllıqdır. İlk iki ədəd genelliklə 0 və 1 kimi seçilir.
+Üç ədəd qəbul edən və konsolda ən böyüyünü göstərən bir funksiya tərtib edin. 
+Fibonacci ədədləri adını Leonardo Fibonacci adlı İtaliyalı riyaziyyatçıdan alır.
+ Bu ardıcıllıq, hər ədədin bir əvvəlki iki ədədin cəmindən alındığı bir ardıcıllıqdır. 
+ İlk iki ədəd genelliklə 0 və 1 kimi seçilir.
 Ardıcıllıq belə görünür: 0, 1, 1, 2, 3, 5, 8, 13, ...
 Yəni:
 •	F(0) = 0
