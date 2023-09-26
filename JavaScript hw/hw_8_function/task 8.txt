@@ -1,0 +1,1 @@
+Dörd function yaradın ki, hər biri prompt ilə daxil olunan ədədlərin +/*- nəticəsini qaytarsın
