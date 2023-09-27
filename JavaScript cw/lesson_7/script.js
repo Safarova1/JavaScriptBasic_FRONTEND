@@ -13,7 +13,7 @@
 
 
 // const userInfo = (nameUser, age, profession, isAvailable) => {
-//     console.log(`The user ${nameUser} is ${profession} of ${age} year old is ${isAvailable ? 'available' : }  `)
+//     console.log(`The user ${nameUser} is ${profession} of ${age} year old is ${isAvailable ? 'available' :"not available" }  `)
 // }
 
 // userInfo('David', 30, 'developer',false)
