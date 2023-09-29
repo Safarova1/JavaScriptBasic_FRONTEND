@@ -1,0 +1,2 @@
+Matni parametri kimi qabul edan 
+va bu matndaki harflarin sayini qaytaran numCounter funksiyasini yazin.
