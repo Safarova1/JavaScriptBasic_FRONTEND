@@ -4,7 +4,7 @@ const metnFunc = (metn) => {
     let count = 0
 
     for (let i = 0; i < metn.length; i++) {
-        if (isNaN && metn[i]!=' ') {
+        if (isNaN(metn[i]) && metn[i]!=' ') {
             count++
         }
     }
