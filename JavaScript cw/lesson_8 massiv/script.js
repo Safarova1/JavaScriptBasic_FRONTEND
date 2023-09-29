@@ -218,4 +218,19 @@
 //----------------------------------------------------------------------------------------------
 
 
-praktika 1
+// praktika 1 -5
+
+
+
+
+
+
+
+
+// map -- her elementi 2ye vurur
+
+let arr =[1,2,3]
+
+let newarr = arr.map((item) => item *2)
+console.log(arr)
+console.log(newarr)
