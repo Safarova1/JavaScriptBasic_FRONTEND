@@ -55,16 +55,64 @@
 
 
 //----------------------------------------------------------------------------------------------
-//icindeki 1 skobkani acir --- flat
+// //icindeki 1 skobkani acir --- flat
 
-let innerArray = [1, 2, [3, 4]]
+// let innerArray = [1, 2, [3, 4]]
 
-console.log(innerArray[2][0]) //3
+// console.log(innerArray[2][0]) //3
 
-//[1, 2, 3, 4]
-console.log(innerArray.flat())
+// //[1, 2, 3, 4]
+// console.log(innerArray.flat())
 
 
+
+
+//----------------------------------------------------------------------------------------------
+//split -- texti cevirir massive bolub her hansi elemente uygun
+//join massivi setire cevirir elementler arasinda '-' isaresi qoyur
+
+
+// let text = 'hello, i am Sama, Ramin'
+// // hello- i am Sama- Ramin
+// console.log(text.split(',').join('-'))
+
+
+// let number = '1 2 3 4 5 6'
+// // 1-2-3-4-5-6
+// console.log(number.split(' ').join('-'))
+
+
+// let num = '1-2-3-4-5-6'
+// // 1 2 3 4 5 6
+// console.log(number.split('-').join(' '))
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------
+// reverse- cevirir ters
+
+// let number = [1, 2, 3, 4, 5, 6, 7]
+// console.log(number.reverse())
+
+
+
+
+//----------------------------------------------------------------------------------------------
+// kolbak function(num) metodun icinde diger metod yazilir
+
+
+let array = [1, 2, 3, 4, 5, 6, 7, 9]
+console.log(array.every((num) => num < 8)) //false
+
+console.log(array.some((num) => num < 12)) //true
 
 
 
