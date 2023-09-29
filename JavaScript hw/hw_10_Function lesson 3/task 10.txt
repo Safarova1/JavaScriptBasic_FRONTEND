@@ -1,0 +1,3 @@
+Telefon nömrasini parametr kimi qabul edan (isvalidnumber)
+ funksiyasini yazin. Telefon nömrasi 11
+raqamdan ibarat oldugda va +7 ila basladiqda, funksiya true qaytarir
