@@ -165,7 +165,7 @@
 // forEach --- adi for kimidir daha qisa sintaksise malikdir
 
 
-// zadac1
+// zadac1  - forEavh ile etdik
 // let even = []
 // let odd = []
 
@@ -188,11 +188,45 @@
 
 
 
+// zadaca2 - adi funkciya ile etdik
+
+
+
+// let even = []
+// let odd = []
+
+// let myArr = [1, 2, 3, 4, 5, 6]
+
+// function myForEach(arr) {
+//     for (let index = 0; index < arr.length; index++) {
+//         if (arr[index] % 2 === 0) {
+//             even.push(arr[index])
+//         } else {
+//             odd.push(arr[index])
+//         }
+//     }
+// }
+// myForEach(myArr)
+// console.log(myArr)
+// console.log(even)
+// console.log(odd)
 
 
 
 
-// zadaca2
+
+
+//-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
