@@ -217,7 +217,18 @@
 
 
 //-------------------------------------------------------------------------------------------
-// reduce --
+// reduce -- ELEMENTLERI VURUR BIRBIRINE a*b,3= butun elementleri vurur bir birine sonra vurur 3e
+
+
+
+
+let even = []
+let odd = []
+
+let myArr = [1,2,3,4,5,6]
+
+let sum = myArr.reduce((a,b) => a + b,1) //ust uste gelir +1 ==21+1=22
+console.log(sum)
 
 
 
@@ -225,11 +236,6 @@
 
 
 
-
-
-
-
-
-
-
+//-------------------------------------------------------------------------------------------
+// praktika 1
 
