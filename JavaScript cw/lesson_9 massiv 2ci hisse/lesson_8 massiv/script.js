@@ -150,3 +150,52 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------
+// forEach --- adi for kimidir daha qisa sintaksise malikdir
+
+
+// zadac1
+// let even = []
+// let odd = []
+
+// let myArr = [1,2,3,4,5,6]
+// myArr.forEach((item) => {
+//     if(item % 2 === 0){
+//         even.push(item)
+//     }else{
+//         odd.push(item) 
+//     }
+// })
+
+// console.log(myArr)
+// console.log(even)
+// console.log(odd)
+
+
+
+
+
+
+
+
+
+
+
+// zadaca2
+
+
+
+
+
+
