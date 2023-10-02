@@ -162,7 +162,7 @@
 
 
 //-------------------------------------------------------------------------------------------
-// forEach --- adi for kimidir daha qisa sintaksise malikdir
+// forEach(item,index) --- adi for kimidir daha qisa sintaksise malikdir
 
 
 // zadac1  - forEavh ile etdik
