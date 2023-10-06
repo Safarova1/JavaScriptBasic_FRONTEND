@@ -11,13 +11,7 @@ let menu = [
 // zadaca1
 const fullMenu = () => {
     return menu.forEach((item) => { console.log(item[0], item[1]) })
-
-
 }
-
-
-
-
 
 let input = prompt("eger 'fullmenu' qeyd etseniz butun menuyunu gore bilersiniz")
 
@@ -28,6 +22,10 @@ if (input === 'fullmenu') {
 }
 
 
+
+
+
+// zadaca2
 let sifaris = prompt("yemek secimi edin")
 let miqdar = Number(prompt('miqdarini qeyd edin'))
 
@@ -42,7 +40,7 @@ const qiymeti = () => {
 
     qiymet = hesab[1] * miqdar
 
-    return hesab[0] + ' qiymeti: ' + qiymet
+    return hesab[0] + '- miqdari:' + miqdar +' umumi qiymeti: ' + qiymet
 
 }
 
