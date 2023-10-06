@@ -40,7 +40,7 @@ const qiymeti = () => {
 
     qiymet = hesab[1] * miqdar
 
-    return hesab[0] + '- miqdari:' + miqdar +' umumi qiymeti: ' + qiymet
+    return hesab[0] + '- miqdari:' + miqdar +' umumi qiymeti: ' + qiymet.toFixed(2)
 
 }
 
