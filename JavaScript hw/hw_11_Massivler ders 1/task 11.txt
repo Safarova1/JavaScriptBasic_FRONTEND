@@ -1,0 +1,4 @@
+Ardıcıllıqda olan ən kiçik ədədi tapan proqram yazın.
+İstifadəçidən beş ədəd elementi daxil etməyi tələb edən,
+onları massilə yazan və ən kiçik ədədi konsola çıxaran proqram yazın.
+
