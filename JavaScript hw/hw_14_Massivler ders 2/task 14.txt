@@ -1,0 +1,15 @@
+let menu = [
+    ["Pizza", 10.99 ],
+    ["Burger", 8.49 ],
+    ["Salat", 5.99 ],
+    ["Çörək", 2.49 ],
+    ["Su", 1.99 ],
+    ["Kola", 1.49 ]
+  ];
+
+1.İstifadəçiyə bir menyunun tam siyahısını göstərən bir funksiya yaradın.
+ Bu funksiya tələbəyə restoranın bütün yemək və içkilərinin adlarını və qiymətlərini göstərməlidir.
+2.İstifadəçiyə bir sifariş verməyə imkan verən bir funksiya yaradın. 
+Bu funksiya istifadəçidən bir yemək adı və sayını qəbul etməlidir. 
+Ardından, bu sifarişin qiymətini hesablayın və istifadəçiyə sifarişi və ümumi qiyməti göstərin.
+
