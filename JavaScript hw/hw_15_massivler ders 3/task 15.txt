@@ -1,0 +1,17 @@
+const tələbələr = [
+    ["Nigar","Əliyeva",85 ],
+    ["Orxan","Məmmədov",92 ],
+    ["Fərid","Hüseynov",75 ],
+    ["Zahidə","Quliyeva",88 ],
+  ];
+
+Tapşırıq:
+	Tələbələrin qiymətlərini artan sıra ilə sıralayaraq yeni bir sortedTələbələr siyahısı yaradın.
+	
+	Set obyektini istifadə edərək tələbələrin aldığı bütün müxtəlif qiymətlərin siyahısını çıxarın.
+	
+	Ortalama qiyməti hesablayın.
+	
+	Ortalamanın üzərində olan tələbələrin sayını tapın.
+	
+	Ən yüksək və ən aşağı qiyməti alan tələbələrin adlarını və soyadlarını çıxarın.
