@@ -64,13 +64,21 @@ console.log(bookdeyismir)
 
 
 // seal --- deyise bilirem sile bilmirem
-Object.seal(object1);
-
+let tezeObyekt1 = Object.seal(bookThree);
+console.log(tezeObyekt1)
 
 
 
 // hasOwnProperty  --- acar var ya yoxdu 
-console.log(bookThree.hasOwnProperty('a'))  //false
+console.log(bookThree.hasOwnProperty('key'))  //false
+
+//numune
+// const object1 = {};
+// object1.property1 = 42;
+// console.log(object1.hasOwnProperty('property1'));
+// // Expected output: true
+
+
 
 
 
@@ -78,12 +86,64 @@ console.log(bookThree.hasOwnProperty('a'))  //false
 // bir obyekti acar ve deyerlerini o biri obyekte beraberlewdirek (copy ne dublicate!)
 
 //1
-const men = Object.create(person)
+const men = Object.create(bookThree)
 //2
-const me  ={...person} 
+const me  ={...bookThree} 
 
 
 
 
 //assign --- birinden goturub o birine verirdi axirda birlewdirdi
-Object.assign(target, source)
+// {a: '3', b: '8', c: '2'}
+const object1 = {a:'3',b:'6'};
+const object2 = {b:'8', c:'2'};
+let obwiyObyekt = Object.assign(object1, object2)
+console.log(obwiyObyekt)
+
+
+
+
+
+
+
+
+
+
+//defineProperties
+const object11 = {};
+
+Object.defineProperties(object11, {
+  property1: {
+    value: 42,
+    writable: true,
+  },
+  property2: {},
+});
+
+
+console.log(object11);  //{property1: 42, property2: undefined}
+console.log(object11.property2); //undefined
+console.log(object11.property1); //42
+
+
+
+
+// Object.is()
+console.log(Object.is('1', 1));
+// Expected output: false
+
+console.log(Object.is(NaN, NaN));
+// Expected output: true
+
+console.log(Object.is(-0, 0));
+// Expected output: false
+
+const obj = {};
+console.log(Object.is(obj, {}));
+// Expected output: false
+
+
+
+
+
+
