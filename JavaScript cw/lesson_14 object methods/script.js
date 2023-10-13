@@ -14,7 +14,7 @@ let bookThree = {
     }
 }
 
-// Jorge Martin
+// deyere uygun acari cixarir -- Jorge Martin
 console.log(bookThree.author)
 
 
@@ -44,7 +44,7 @@ console.log(bookKeys)
 
 
 
-// entries  ---  
+// entries  ---  icindekileri massive cevirir
 // ['bookName', 'Game of thorones']
 // ['author', 'Jorge Martin']
 // ['bookCouny', Array(5)]
@@ -55,11 +55,17 @@ console.log(bookEntries)
 
 
 
-//freeze --- deyerini deyismek olasin deye istifade edirik
+//freeze --- sile bilmirem deyise bilmirem - deyerini deyismek olmasin deye istifade edirik
 let bookdeyismir = Object.freeze(bookThree)
 bookThree.bookName = 'God Father'
 console.log(bookThree.bookName)
 console.log(bookdeyismir)
+
+
+
+// seal --- deyise bilirem sile bilmirem
+Object.seal(object1);
+
 
 
 
@@ -68,10 +74,16 @@ console.log(bookThree.hasOwnProperty('a'))  //false
 
 
 
+//create --- 2usulla ede bilerik - 
+// bir obyekti acar ve deyerlerini o biri obyekte beraberlewdirek (copy ne dublicate!)
+
+//1
+const men = Object.create(person)
+//2
+const me  ={...person} 
 
 
 
 
-
-
-
+//assign --- birinden goturub o birine verirdi axirda birlewdirdi
+Object.assign(target, source)
