@@ -109,7 +109,8 @@ console.log(obwiyObyekt)
 
 
 
-//defineProperties
+//defineProperties --- teze bir obyekt yaradir,
+//  icine acar ve 1ci deyerleri daxil edir
 const object11 = {};
 
 Object.defineProperties(object11, {
@@ -122,14 +123,15 @@ Object.defineProperties(object11, {
 
 
 console.log(object11);  //{property1: 42, property2: undefined}
-console.log(object11.property2); //undefined
 console.log(object11.property1); //42
+console.log(object11.property2); //undefined
 
 
 
-
-// Object.is()
+// Object.is() --- 1ci ve 2ci obyekteki strukturu yoxlayir-tip ve deyer yoxlanilir
 console.log(Object.is('1', 1));
+// Expected output: false
+console.log(Object.is('1', '2'));
 // Expected output: false
 
 console.log(Object.is(NaN, NaN));
