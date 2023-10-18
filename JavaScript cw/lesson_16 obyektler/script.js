@@ -322,3 +322,51 @@ mal1.forEach(element => {
         });
     }
 });
+
+
+
+let obj = {
+    name:'Ramin',
+    adress:'Baki'
+}
+
+
+Object.freeze(obj)
+// console.log(newArr)
+// console.log(obj.name)
+// console.log(obj['Name of user'])
+
+
+obj.name = 'Saleh'
+delete obj.adress
+console.log(obj)
+
+let a = 1
+let b = a++
+console.log(a)
+console.log(b)
+
+let c = 1
+let d = ++c
+console.log(c)
+console.log(d)
+
+
+
+console.log(c)
+console.log(d)
+
+console.log(parseInt('12.11b'))
+console.log(parseFloat('12.101b'))
+console.log(1.101)
+
+
+
+
+
+
+
+
+
+
+
