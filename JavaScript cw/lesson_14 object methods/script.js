@@ -5,13 +5,13 @@
 
 
 let bookThree = {
-    bookName:'Game of thorones',
-    author:'Jorge Martin',
-    bookCouny:[1,2,3,4,5],
-    printBook(){
-        let result = this.bookCouny.reduce((a,b) => a + b)
-        console.log(result / this.bookCouny.length)
-    }
+  bookName: 'Game of thorones',
+  author: 'Jorge Martin',
+  bookCouny: [1, 2, 3, 4, 5],
+  printBook() {
+    let result = this.bookCouny.reduce((a, b) => a + b)
+    console.log(result / this.bookCouny.length)
+  }
 }
 
 // deyere uygun acari cixarir -- Jorge Martin
@@ -88,15 +88,15 @@ console.log(bookThree.hasOwnProperty('key'))  //false
 //1
 const men = Object.create(bookThree)
 //2
-const me  ={...bookThree} 
+const me = { ...bookThree }
 
 
 
 
 //assign --- birinden goturub o birine verirdi axirda birlewdirdi
 // {a: '3', b: '8', c: '2'}
-const object1 = {a:'3',b:'6'};
-const object2 = {b:'8', c:'2'};
+const object1 = { a: '3', b: '6' };
+const object2 = { b: '8', c: '2' };
 let obwiyObyekt = Object.assign(object1, object2)
 console.log(obwiyObyekt)
 
@@ -148,4 +148,14 @@ console.log(Object.is(obj, {}));
 
 
 
+//silmek
 
+let ob = {
+  name: 'Ramin',
+  adress: 'Baki'
+}
+
+
+ob.name = 'Saleh'
+delete ob.adress
+console.log(ob)
