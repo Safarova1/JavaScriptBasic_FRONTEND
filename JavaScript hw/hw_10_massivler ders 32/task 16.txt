@@ -1,0 +1,2 @@
+Massivə adları silmə və əlavə etmə proqramı yazın. 
+Amma bu proqram təmiz detruktirizasiya yolu ilə işləsin
