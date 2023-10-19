@@ -1,0 +1,35 @@
+Digər tapşırıqlar burda olacaq 
+
+https://docs.google.com/document/d/1kpPS1a3Plat6_X8HtVY3iLXCwjBuCHR46gO7HfuCVyU/edit?usp=sharing
+
+1. let arr = ["Saleh", "Samir", "Nahid", "Nahid", "Ramin"]
+
+Əgər massivdə təkrarlanan adlar olar onları massivdən silin
+
+2. let arr = ["Saleh: 1997", "Samir : 1995", "Nahid : 1996", "Nahid : 19992", "Ramin : 1999"]
+
+Massivi illərə gorə siralayın
+
+3. let arr = ["Saleh", "Samir", "Nahid", "Nahid", "Ramin"]
+
+Əgər massivdə təkrarlanan adlar olar onların sayını yaz
+
+4. let salary = [
+    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+    [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75],
+    [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 180],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
+    [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]
+];
+
+Bu massivdə ən çox və ən az maaşı olan massivləri yazın
+
+
+
+
+
