@@ -378,9 +378,10 @@
 // console.log(Math.floor(4.2))
 // console.log(Math.floor(-4.2))
 
-let color = ['red', 'blue', 'black', 'yellow', 'green']
 
-console.log(color[Math.floor(Math.random() * color.length)])
+// let color = ['red', 'blue', 'black', 'yellow', 'green']
+
+// console.log(color[Math.floor(Math.random() * color.length)])
 
 // color.forEach((item) => {
 //     let p = document.createElement('p')
@@ -388,3 +389,96 @@ console.log(color[Math.floor(Math.random() * color.length)])
 //     p.style = `background-color: ${color[Math.floor(Math.random() * color.length)]}`
 //     con.appendChild(p)
 // })
+
+// let randomNumber = Math.floor(Math.random() * 5)
+
+// let time = setInterval(() => {
+//     let number = Math.floor(Math.random() * 5)
+//     console.log(randomNumber)
+//     console.log(number)
+//     if(randomNumber === number){
+//         console.log('tapildi')
+//         clearInterval(time)
+//     }
+// },1000)
+
+// while(true){
+//     let number = Number(prompt())
+//     if(randomNumber === number){
+//         alert('Tapildi')
+//         break
+//     }else{
+//         alert('O deyil')
+//     }
+// }
+
+// let text = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+// let passwordText = ''
+
+// for (let index = 0; index < 3; index++) {
+//     let symbol = text[Math.floor(Math.random() * text.length)]
+//     passwordText += symbol
+
+// }
+// console.log(passwordText)
+// let time = setInterval(() => {
+//     let password = ''
+//     for (let index = 0; index < 3; index++) {
+//         let symbolTwo = text[Math.floor(Math.random() * text.length)]
+//         password += symbolTwo
+
+//     }
+//     console.log(passwordText)
+//     console.log(password)
+//     if (password === passwordText) {
+//         console.log('tapildi')
+//         clearInterval(time)
+//     }
+// })
+
+
+// console.log(password)
+
+// let arr = []
+
+// for (let index = 0; index < 3; index++) {
+//     let input = prompt()
+//     let passwordText = ''
+
+//     for (let index = 0; index < 11; index++) {
+//         let symbol = text[Math.floor(Math.random() * text.length)]
+//         passwordText += symbol
+
+//     }
+//     arr.push({ name: input, password: passwordText })
+//     console.log(arr)
+// }
+
+// while(true){
+//    let input = prompt()
+
+//    if(input === 'Admin'){
+//     let secondInput = prompt('admin')
+//      if(secondInput === 'sil'){
+//         alert('silindi')
+//      }else if(secondInput === 'elave et'){
+//         alert('elave olundu')
+//      }
+//    }else if(input === 'Alici'){
+//     let secondInput = prompt('alici')
+//      if(secondInput === 'show'){
+//         alert('show')
+//      }
+//    }else if(input === 'end'){
+//     break
+//    }
+// }
+
+shopGoods.forEach((item) => {
+    if(item.shopName === 'Best Shop'){
+        let goods = item.fruits.find((item) => item.name === 'Sumka')
+        favoriteGoods.push(goods)
+    }
+})
+
+console.log(favoriteGoods)
