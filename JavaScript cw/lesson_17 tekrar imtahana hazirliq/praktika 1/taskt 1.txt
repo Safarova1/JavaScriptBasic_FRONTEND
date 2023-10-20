@@ -1,0 +1,4 @@
+Evvelceden bir deyishenin icinde 5 kimi araliqda 
+random bir reqem elde eleyirsiz. Sonra sonsuz dovr yaradirsiz.
+ Sonsuz dovrde her defe prompt cixmalidir ve siz elde olunmush ededi 
+yassaz cixmalidir ki TAPILDI
