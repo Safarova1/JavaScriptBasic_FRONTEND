@@ -1,5 +1,3 @@
-let favoriteGoods = []
-
 let shopGoods = [
     {
         shopName: 'Best Shop',
@@ -72,33 +70,31 @@ let shopGoods = [
 ]
 
 
-let stopArray = setInterval(() => {
 
-
-    let input = prompt("istediyin shopName yaz - dayandirmaq ucun end yaz")
-
-    if (input === 'end') {
-        clearInterval(stopArray)
+class FavoriteGoods {
+    constructor(shopName) {
+        this.shopName = shopName
+        this.favoriteGoods = []
     }
-    else {
 
-        shopGoods.forEach((item) => {
-            if (item.shopName === input) {
-                let inputname = prompt("istediyin mali yaz")
+    favorit(massiv) {
+        massiv.forEach((item) => {
+            if (item.shopName === this.shopName) {
                 item.fruits.forEach((mal) => {
-                    if (mal.name == inputname) {
-                        favoriteGoods.push(mal)
-                    }
+                    this.favoriteGoods.push(mal)
                 })
             }
 
         })
-
+        this.favoriteGoods.sort((a,b)=>a['qiymet']-b['qiymet'])
+        console.log(this.favoriteGoods)
+        
     }
+}
 
 
 
-    console.log(favoriteGoods)
+let input = prompt("istediyin shopName yaz - dayandirmaq ucun end yaz")
 
-}, 1000)
-
+let goods = new FavoriteGoods(input)
+goods.favorit(shopGoods)
