@@ -358,3 +358,12 @@
 
 
 
+
+// İnkapsulyasiya 
+// Varislik (İnheritance)
+// Polimorfizm
+
+
+
+
+
