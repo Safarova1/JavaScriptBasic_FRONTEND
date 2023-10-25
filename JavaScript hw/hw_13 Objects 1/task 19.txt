@@ -1,0 +1,32 @@
+Bir massiv yaradın və adını "students" qoyun.
+ Bu massiv ən azı 5 tələbənin adlarını saxlamalıdır.
+
+Bir funksiya yaradın və adını "addStudent" qoyun. 
+Bu funksiya bir tələbənin adını qəbul etməlidir və 
+"students" massivinə əlavə etməlidir.
+
+
+Başqa bir funksiya yaradın və adını "removeStudent" qoyun. 
+Bu funksiya bir tələbənin adını qəbul etməlidir və "students" 
+massivindən bu tələbəni silməlidir.
+
+
+Bir funksiya yaradın və adını "findStudent" qoyun. 
+Bu funksiya bir tələbənin adını qəbul etməlidir və əgər
+ bu tələbə "students" massivində varsa, tələbənin adını 
+ və indeksini qaytarmalıdır. Əgər tələbə mövcud deyilsə, 
+ "Tələbə tapılmadı" kimi bir mesaj qaytarmalıdır.
+
+"students" massivini təkrarlayan bir funksiya yaradın və 
+hər bir tələbənin adını konsola çıxaran bir proqram yazın.
+
+
+
+Bütün funksiyaları düzgün işlədən bir proqram yazın və 
+aşağıdakı əmrləri yerinə yetirin:
+
+Əvvəl, "students" massivinə 5 tələbə əlavə edin.
+Bir tələbəni "removeStudent" funksiyası ilə silin.
+Başqa bir tələbəni "addStudent" funksiyası ilə əlavə edin.
+Bir tələbənin adını "findStudent" funksiyası ilə axtarın və konsola çıxarın.
+"students" massivini təkrarlayan funksiyanı çağırın.
