@@ -157,38 +157,204 @@
 // super Metodu  -- ana klasdaki metodu bala klasda cagirmaq olur
 
 
-class Kitab {
-    constructor(adi, muellifi) {
-        this.adi = adi
-        this.muellifi = muellifi
-    }
-}
+// class Kitab {
+//     constructor(adi, muellifi) {
+//         this.adi = adi
+//         this.muellifi = muellifi
+//     }
+// }
 
-class Roman extends Kitab {
-    constructor(adi, muellifi, janr) {
-        super(adi, muellifi);
-        this.janr = janr
-    }
-    cap() {
-        console.log(`roman: ${this.adi}, ${this.muellifi}, ${this.janr}`)
-    }
-}
+// class Roman extends Kitab {
+//     constructor(adi, muellifi, janr) {
+//         super(adi, muellifi);
+//         this.janr = janr
+//     }
+//     cap() {
+//         console.log(`roman: ${this.adi}, ${this.muellifi}, ${this.janr}`)
+//     }
+// }
 
-class ElmiKitab extends Kitab {
-    constructor(adi, muellifi, sahe) {
-        super(adi, muellifi);
-        this.sahe = sahe
-    }
-    cap() {
-        console.log(`elmikitab: ${this.adi},${this.muellifi}, ${this.sahe}`)
-    }
-}
-
-
+// class ElmiKitab extends Kitab {
+//     constructor(adi, muellifi, sahe) {
+//         super(adi, muellifi);
+//         this.sahe = sahe
+//     }
+//     cap() {
+//         console.log(`elmikitab: ${this.adi},${this.muellifi}, ${this.sahe}`)
+//     }
+// }
 
 
-let roman = new Roman("Приключения Незнайки и его друзей", "Приключения Незнайки и его друзей", "Роман-сказка")
-roman.cap()
 
-let elmikitab = new ElmiKitab("kitabin adi", "muellifin adi", "sahesi ")
-elmikitab.cap()
+
+// let roman = new Roman("Приключения Незнайки и его друзей", "Приключения Незнайки и его друзей", "Роман-сказка")
+// roman.cap()
+
+// let elmikitab = new ElmiKitab("kitabin adi", "muellifin adi", "sahesi ")
+// elmikitab.cap()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Kitab {
+//     constructor(adi, muellifi) {
+//         this.adi = adi
+//         this.muellifi = muellifi
+//     }
+//     caproman(){
+//         console.log(`roman: ${this.adi}, ${this.muellifi}`)
+//     }
+//     capelmikitab(){
+//         console.log(`elmikitab: ${this.adi}, ${this.muellifi}`)
+//     }
+
+// }
+
+// class Roman extends Kitab {
+//     constructor(adi, muellifi, janr) {
+//         super(adi, muellifi);
+//         this.janr = janr
+//     }
+//     cap() {
+//         super.caproman()
+//         console.log(` janri -  ${this.janr}`)
+//     }
+// }
+
+// class ElmiKitab extends Kitab {
+//     constructor(adi, muellifi, sahe) {
+//         super(adi, muellifi);
+//         this.sahe = sahe
+//     }
+//     cap() {
+//         super.capelmikitab()
+//         console.log(`sahesi - ${this.sahe}`)
+//     }
+// }
+
+
+
+
+// let roman = new Roman("Приключения Незнайки и его друзей", "Приключения Незнайки и его друзей", "Роман-сказка")
+// roman.cap()
+
+// let elmikitab = new ElmiKitab("kitabin adi", "muellifin adi", "sahesi ")
+// elmikitab.cap()
+
+
+
+
+
+// Polimorfizm  -- ana metod balalarda da eyni adda ola biler
+
+
+
+
+
+// class Animal {
+//     makeSound() {
+//         console.log("Animal makes a sound");  // Umumi heyvan səsi
+//     }
+// }
+
+// class Dog extends Animal {
+//     makeSound() {
+//         console.log("Dog barks");  // Köpək üçün xüsusi səs
+//     }
+// }
+
+
+
+// class Cat extends Animal {
+//     makeSound() {
+//         console.log("Cat meows");  // Pişik üçün xüsusi səs
+//     }
+// }
+
+// function playSound(animal) {
+//     animal.makeSound();  // Burada hansı heyvanın səsi olduğunu kod özü müəyyən edir
+// }
+
+// const rex = new Dog();
+// const whiskers = new Cat();
+
+// playSound(rex);    // Çıxış: Dog barks
+// playSound(whiskers);   // Çıxış: Cat meows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Kitab {
+//     constructor(adi, muellifi) {
+//         this.adi = adi
+//         this.muellifi = muellifi
+//     }
+//     caproman(){
+//         console.log(`roman: ${this.adi}, ${this.muellifi}`)
+//     }
+//     capelmikitab(){
+//         console.log(`elmikitab: ${this.adi}, ${this.muellifi}`)
+//     }
+
+// }
+
+// class Roman extends Kitab {
+//     constructor(adi, muellifi, janr) {
+//         super(adi, muellifi);
+//         this.janr = janr
+//     }
+//     caproman() {
+//         super.caproman()
+//         console.log(` janri -  ${this.janr}`)
+//     }
+// }
+
+// class ElmiKitab extends Kitab {
+//     constructor(adi, muellifi, sahe) {
+//         super(adi, muellifi);
+//         this.sahe = sahe
+//     }
+//     capelmikitab() {
+//         super.capelmikitab()
+//         console.log(`sahesi - ${this.sahe}`)
+//     }
+// }
+
+
+
+
+// let roman = new Roman("Приключения Незнайки и его друзей", "Приключения Незнайки и его друзей", "Роман-сказка")
+// roman.caproman()
+
+// let elmikitab = new ElmiKitab("kitabin adi", "muellifin adi", "sahesi ")
+// elmikitab.capelmikitab()
+
+
+
+
+
+
+
