@@ -72,25 +72,33 @@ let shopGoods = [
 ]
 
 
+let stopArray = setInterval(() => {
 
-let input = prompt("istediyin shopName yaz - dayandirmaq ucun end yaz")
 
+    let input = prompt("istediyin shopName yaz - dayandirmaq ucun end yaz")
 
-shopGoods.forEach((item) => {
-    if (item.shopName === input) {
-        let inputname = prompt("istediyin mali yaz")
-        item.fruits.forEach((mal) => {
-            if (mal.name == inputname) {
-                favoriteGoods.push(mal)
+    if (input === 'end') {
+        clearInterval(stopArray)
+    }
+    else {
+
+        shopGoods.forEach((item) => {
+            if (item.shopName === input) {
+                let inputname = prompt("istediyin mali yaz")
+                item.fruits.forEach((mal) => {
+                    if (mal.name == inputname) {
+                        favoriteGoods.push(mal)
+                    }
+                })
             }
+
         })
+
     }
 
-})
 
 
+    console.log(favoriteGoods)
 
-
-console.log(favoriteGoods)
-
+}, 1000)
 
