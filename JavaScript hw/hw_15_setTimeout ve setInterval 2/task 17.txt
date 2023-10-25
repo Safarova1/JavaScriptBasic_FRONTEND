@@ -1,7 +1,7 @@
 Sonsuz dövrün içində hər dəfə propmpt cixsin bu prompta bu şəkildə
- ‘Ramin Nasraddinzade-ramin98-password’ tire ile bolunmuş ad,login,parol daxil edirisiz.
-  Bunlardan bir massiv edirsiz. 
-  Elde olunan melumatlardan obyekt yaradib sonra hemin obyekte indiki tarixi
-   bir acara deyer olaraq yazib, bir bosh massive yazirsiz. 
-   Show daxil ederikse prompta massivde olan obyketlerin deyerlerini gosterin. 
+‘Ramin Nasraddinzade-ramin98-password’ tire ile bolunmuş ad,login,parol daxil edirisiz.
+Bunlardan bir massiv edirsiz. 
+Elde olunan melumatlardan obyekt yaradib sonra hemin obyekte indiki tarixi
+bir acara deyer olaraq yazib, bir bosh massive yazirsiz. 
+Show daxil ederikse prompta massivde olan obyketlerin deyerlerini gosterin. 
 End daxil ederikse dövr dayansin
