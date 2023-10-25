@@ -1,0 +1,5 @@
+Tapşırıq 2: Tələbə Jurnalı
+	Tələbə adlı bir obyekt yaradın.
+	Bu obyektin aşağıdakı xüsusiyyətləri olsun: ad, soyad, yaş və qiymətlər (bir massiv kimi).
+	Hər Tələbənin bütün qiymətlərinin ortalamasını hesablayıb göstərmək lazımdır.
+	Ən azı 3 fərqli tələbə obyekti yaradaraq onların məlumatları ilə doldurun.
