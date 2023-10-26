@@ -1,0 +1,2 @@
+Class strukturundan istifade edib men lahiye ucun verdiyim
+ massivdeki uc  maqazinden birinde bir mali silin
