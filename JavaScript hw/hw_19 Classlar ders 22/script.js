@@ -72,12 +72,8 @@ class AddProduct {
                 console.log(massiv)
             }
         })
-
-
     }
-
 }
-
 
 
 
