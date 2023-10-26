@@ -1,0 +1,2 @@
+Class strukturundan istifade edib men lahiye ucun verdiyib 
+massivdeki uc  maqazinden birine bir yeni mal elave edin
