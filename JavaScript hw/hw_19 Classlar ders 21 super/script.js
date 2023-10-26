@@ -57,7 +57,7 @@ class RemoveProduct {
     constructor(store_name, product) {
         this.store_name = store_name
         this.product = product
-        this.index = index
+        this.index = 0
     }
 
     removeProduct(massiv) {
@@ -67,7 +67,9 @@ class RemoveProduct {
                     if (mal['product_name'] === this.product) {
                         // delete item.products.mal
                         this.index = item.products.indexOf(mal)
-                        console.log(item.products.length)
+                        alert('mal silinde')
+                        item.products.splice(this.index,1)
+                        console.log(massiv)
                     }
 
                 })
