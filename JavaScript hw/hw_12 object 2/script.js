@@ -11,15 +11,16 @@ let telebeler = [
 
 
 
-for (let i = 3; i < 4; i++) {
+for (let i = 1; i < 4; i++) {
     let telebe = {}
 
     telebe['ad'] = prompt('ad')
     telebe['soyad'] = prompt('soyad')
     telebe['yash'] = Number(prompt('yash'))
     let arr = prompt('1,3,4,3,4').split(',')
-    telebe.qiymet.push(arr)
-    
+    arr = arr.map((item) => Number(item))
+    telebe.qiymet = arr
+
     telebeler.push(telebe)
 }
 
@@ -27,9 +28,13 @@ for (let i = 3; i < 4; i++) {
 console.log(telebeler)
 
 
-// qiymetOrtalama() {
+const qiymetOrtalama = () => {
+    telebeler.forEach((telebe) => {
+        let cemi = telebe.qiymet.reduce((a, b) => a + b)
+        let ortalama = cemi / telebe.qiymet.length
 
-//             let cemi = this.qiymet.reduce((a, b) => a + b)
-//             let ortalama = cemi / this.qiymet.length
-//             console.log(ortalama)
-//         }
+        console.log(ortalama)
+    })
+}
+
+qiymetOrtalama()
