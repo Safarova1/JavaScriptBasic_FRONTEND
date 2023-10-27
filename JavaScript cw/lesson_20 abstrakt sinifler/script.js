@@ -191,19 +191,37 @@ let shopGoods = [
 
 
 
-class 
+//ifsiz
+class See {
+
+    get productSee() {
+        shopGoods.forEach((item) => {
+            console.log(item.store_name)
+            item.products.forEach((item) => {
+                console.log(item.product_name+' '+item.product_description+' '+item.product_price)
+            })
+
+        })
+    }
+    set productSee(massiv) {
+
+        massiv.forEach((item)=>{
+            item.products.sort((a, b) => a.product_price - b.product_price)
+        })
+
+    }
+
+}
 
 
 
+let arr = new See()
+
+arr.productSee = shopGoods
+arr.productSee
 
 
-
-
-
-
-
-
-
+//ifle shekil olaraq var bax
 
 
 
