@@ -65,9 +65,11 @@ class ChooseFind {
     get product() {
         shopGoods.forEach((item) => {
             if (item.store_name === this.store_name) {
-                item.products.forEach((item) => {
-                    if (item.product_name === this.product_name) {
-                        console.log(item.product_name + ' ' + item.product_description + ' ' + item.product_price)
+                item.products.forEach((element) => {
+                    if (element.product_name === this.product_name) {
+                        alert(element.product_name + ' ' + element.product_description + ' ' + element.product_price)
+
+                        console.log(element.product_name + ' ' + element.product_description + ' ' + element.product_price)
                     }
                 })
             }
@@ -75,14 +77,21 @@ class ChooseFind {
 
     }
     set product(massiv) {
-        item.product_name = massiv[0]
-        item.product_description = massiv[1]
-        item.product_price = massiv[2]
-            
+
+        shopGoods.forEach((item) => {
+            if (item.store_name === this.store_name) {
+                item.products.forEach((element) => {
+                    if (element.product_name === this.product_name) {
+
+                        element.product_name = massiv[0]
+                        element.product_description = massiv[1]
+                        element.product_price = massiv[2]
+                    }
+                })
+            }
+        })
+
         console.log(shopGoods)
-
-        
-
     }
 }
 
@@ -92,26 +101,30 @@ class ChooseFind {
 
 
 
-let inputstore_name = prompt("istediyin store_name qeyd et - dayandirmaq ucun end yaz")
+let inputstore_name = prompt("istediyin store_name qeyd et - dayandirmaq ucun 'end' yaz")
 if (inputstore_name === 'end') {
     alert("hecne elave olunmadi")
 } else {
-    let inputproduct_name = prompt("elave etmek istediyiniz product_name qeyd edin")
+    let inputproduct_name = prompt("gormek istediyiniz product_name qeyd edin")
     let gostermek = new ChooseFind(inputstore_name, inputproduct_name)
     gostermek.product
 
     let cavab = prompt("deyismek istiyirsen? yes no ")
-    if (cavab = 'yes') {
-        let  = prompt("deyismek istediyiniz product_name qeyd edin")
-        let inputproduct_description = prompt("deyismek istediyiniz product_description qeyd edin")
-        let inputproduct_price = Number(prompt("deyismek istediyiniz product_price qeyd edin"))
+    if (cavab === 'yes') {
+        let newproduct_name = prompt("deyismek istediyiniz product_name qeyd edin")
+        let newproduct_description = prompt("deyismek istediyiniz product_description qeyd edin")
+        let newproduct_price = Number(prompt("deyismek istediyiniz product_price qeyd edin"))
 
 
         let arr = []
-        arr.push(inputproduct_name+inputproduct_description+inputproduct_price)
+        arr.push(newproduct_name )
+        arr.push(newproduct_description)
+        arr.push(newproduct_price)
 
+
+      
         let gostermek = new ChooseFind(inputstore_name, inputproduct_name)
-        gostermek.product=arr
+        gostermek.product = arr
 
 
         alert('melumat deyisildi')
