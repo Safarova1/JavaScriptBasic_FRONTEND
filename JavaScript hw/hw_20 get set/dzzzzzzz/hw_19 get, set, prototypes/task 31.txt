@@ -1,0 +1,2 @@
+get metodu ile bir classin icinde mali tapib gostermek lazimdir. 
+Set metodu ile bir malin qiymetini deyishmek lazimdir
