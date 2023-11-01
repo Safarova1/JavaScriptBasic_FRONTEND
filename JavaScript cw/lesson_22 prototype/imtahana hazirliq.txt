@@ -1,0 +1,121 @@
+1 - deyisen novleri
+
+3 cur
+let 
+var 
+const
+
+
+2 - melumat tipleri
+https://www.w3schools.com/js/js_number_methods.asp
+https://www.w3schools.com/js/js_string_methods.asp
+
+6 nov
+Undefined
+Null
+number
+string
+boolen
+simbol - obyektlerin xususi acarlarini yaratmaq ucundu
+
+
+3 - tiplerin sevrilmesi
+
+-avtomatik cevrilir
+toplamada 
+== 
+
+-askar
+elimizle ceviririk promtu meselen
+
+number
+string
+boolen
+tostring
+
+https://www.w3schools.com/js/js_number_methods.asp
+parseFloat()
+parseInt()
+
+
+Python RegEx  -regulae expressions
+https://www.w3schools.com/python/python_regex.asp
+
+
+
+4 - dovrler
+for
+forof
+forin
+while
+do while
+
+
+
+5 -  functions
+
+2yolla yaranir ferqleri 
+
+
+6 - setTimeout   setİnterval 
+dayandirmaq clearİnterval
+interval - coxala coxala gedir -dayandirmasan gedir
+timeout - funksiya qutaranda diyanir (boyuk intervallar islese daha yaxsidi)
+
+
+
+
+7 - obyektler
+https://docs.google.com/document/d/1Xx27EFGCFGA3ObRlpUG3g8A68e8j3kMz6VfnnOIJ5hU/edit
+metodlar doc dokumentde var hamisi
++define
+
+math object--w3
+https://www.w3schools.com/js/js_math.asp
+
+Math.round(x)	- 
+Math.ceil(x)	
+Math.floor(x)	- 
+Math.trunc(x)
+sqrt
+pow
+min max
+random
+
+
+date-
+https://www.w3schools.com/js/js_dates.asp 
+
+
+8 - massivler
+indexlenme 0dan baslayir
+shekil
+
+
+
+9 - klasslar 
+get set prototip
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------------------------
+1.Dəyişən növləri
+2.Məlumat tipləri
+3.Tiplərin çevrilməsi
+4.Dövrlər
+5.Functions
+6. setTimeout, setİnterval
+7.Objects - Object methods - Google Документы
+   Math,Date
+8.Massivlər 
+9. OOP, Class, OOP nəzəriyələri, get, set
+10. Prototype, __proto__
+
