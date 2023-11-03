@@ -1,0 +1,2 @@
+Array.prototype ile istenilen array üçün 
+istifadə oluna bilen öz forEach metodunuzu yazin
