@@ -1,0 +1,18 @@
+const newFunction = (sual, cavab) => {
+    let metn = prompt(sual)
+
+    if (metn == cavab) {
+        alert("duz tapdiniz")
+    }
+    else {
+        alert('sehv tapdiniz ')
+        alert(cavab)
+    }
+
+}
+
+
+
+newFunction('A kişi, kişi   Əlində şişi.   Mənə bir at ver,   Nə erkək olsun, nə dişi','Beşik')
+newFunction('A mənim, al yastığım,İçinə un basdığım.','İydə')
+newFunction('Adam deyil, hey qaçır,Meşə deyil, səs salır.','Çay')
